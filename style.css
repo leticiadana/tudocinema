@@ -1,27 +1,179 @@
-/*retirar bullet das listas*/
-.icones {list-style: none;}
+    .icones {
+        list-style: none; 
+        text-align: right
+    }
 
-/*colocar as listas na mesma linha*/
-.icones li {display: inline;}
+    .icones li {
+        display: inline
+    } 
 
-.fa-brands,.fa-solid {font-size: 30px;margin-top: 60px;margin-left: 5px; margin-right: 5px;}
+    .fa-brands,.fa-solid {
+        font-size: 30px; 
+        margin-left: 5px; 
+        margin-right: 5px
+    }
 
-.cabecalho h2 {text-align: center; text-transform: uppercase;} /* alinhar o texto ao centro e transformar o texto em maiúscula*/
+    .cabecalho h2 {
+        text-align: center; 
+        margin-top: 30px; 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: rgb(71, 68, 68)
+    } 
 
-.cabecalho p {text-align: center;} /* alinhar o texto ao centro*/
+    .cabecalho p {
+        text-align: center
+    } 
 
-.barra-topo {background-color: #8998ab} /*copiar o código do figma*/
+    .cabecalho-canal h2 {
+        text-align: center; 
+        margin-top: 30px; 
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: white
+    } 
 
-.icones li a {color:white} /*cor do texto*/
+    .cabecalho-canal p {
+        text-align: justify
+    } 
 
-.navbar, .navbar-nav, .nav-item, .nav-link {color:white; text-transform: uppercase; margin-left: 10px; margin-right: 10px; font-weight: bold; font-size: 15px;}
+    .barra-topo {
+        background-color: black
+    }
 
-a {color:black; text-decoration: none;} /* retirar sublinhado do link*/
+    .barra-topo img {
+        text-align: center
+    }
 
-a:hover {color: #8998ab;} /* quando passar o cursor pelo link, o texto vai mudar para essa cor*/
+    .icones li a {
+        color:white
+    } 
 
-.associacao {color: #8998ab;}
+    .navbar, .navbar-nav, .nav-item, .nav-link {
+        color:white; 
+        text-transform: uppercase; 
+        margin-left: 10px; 
+        margin-right: 10px; 
+        font-weight: bold; 
+        font-size: 15px
+    }
 
-.cor-rodape {background-color: #8998ab;}
+    a {
+        color:black; 
+        text-decoration: none; 
+        font-size: medium; 
+        color: rgb(71, 68, 68)
+    } 
 
-body {font-family: 'Roboto', sans-serif;} /*pegar a fonte do google fonts, que lá eles dão os códigos*/
+    a:hover {
+        color: #8e0a0a
+    }
+
+    .associacao {
+        color: rgb(71, 68, 68); 
+        margin-top: 40px; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+
+    .associacao li {
+        background-color:#98b7bd; 
+        color: white
+    }
+
+    .pre-footer {
+        background-color: #6fafbc;
+        padding: 0px;
+        text-align: center
+    }
+    
+    .pre-footer a {
+        color: #FFFFFF;
+        margin: 10px;
+        text-align: center;
+        padding-bottom: 60px
+    }
+
+    .pre-footer ul {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        text-align: center
+    }
+
+    .pre-footer li {
+        display: inline
+    }
+
+    .pre-footer .fa-brands,
+    .pre-footer .fa-solid {
+        font-size: 24px
+    }
+
+    .pre-footer a:hover {
+        color: #f8f7f7
+    }
+    
+    .logo-footer, .footer { 
+        background-color: #000000;
+        text-align: center
+    }
+
+    .logo-footer img {
+        max-width: 100px;
+        margin: 20px
+    }
+
+    .footer a {
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: white
+    }
+
+    .footer a:hover {
+        color: #8e0a0a
+    }
+
+    body {
+        font-family: 'Roboto', sans-serif; 
+        color: rgb(71, 68, 68); 
+        background-color: #ecf3f5; 
+        overflow-wrap: break-word
+    } 
+
+    .menu {
+    background-color: #6fafbc
+    }
+
+    .nomes-filmes {
+        text-align: center; 
+        font-size: 10px; 
+        color: #979796; 
+        margin-top: 10px
+    }
+
+    .linha hr {
+        width: 300px;
+        margin: 0px auto;
+        border-color: #000000; 
+        border-width: 3px; 
+        margin-top: 30px
+    }
+
+    .texto {
+        font-family: 'Roboto', sans-serif; 
+        text-align: justify;
+        margin-top: 20px
+    }  
+
+    .bgcolor-area {
+        background-color: rgb(71, 68, 68);
+        padding-bottom: 60px;
+        color: #FFFFFF;
+        margin-top: 40px
+    }
+
+    .imagens {
+        text-align: center
+    }
+
+    .favoritos {
+        text-align: justify
+    }
